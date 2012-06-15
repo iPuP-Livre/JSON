@@ -13,6 +13,9 @@
 		E05586FD1525E369009CA659 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E05586FB1525E369009CA659 /* InfoPlist.strings */; };
 		E05586FF1525E369009CA659 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E05586FE1525E369009CA659 /* main.m */; };
 		E05587031525E369009CA659 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E05587021525E369009CA659 /* AppDelegate.m */; };
+		E055870A1525E3AE009CA659 /* JSON.txt in Resources */ = {isa = PBXBuildFile; fileRef = E05587091525E3AE009CA659 /* JSON.txt */; };
+		E05587111525E4FB009CA659 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E05587101525E4FB009CA659 /* TableViewController.m */; };
+		E05587141525E68A009CA659 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = E05587131525E68A009CA659 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,17 @@
 		E05586F21525E369009CA659 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E05586F41525E369009CA659 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E05586F61525E369009CA659 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E05586FA1525E369009CA659 /* JSON-Info.plist */ = {isa = PBXFileReference; path = "JSON-Info.plist"; sourceTree = "<group>"; };
+		E05586FA1525E369009CA659 /* JSON-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSON-Info.plist"; sourceTree = "<group>"; };
 		E05586FC1525E369009CA659 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E05586FE1525E369009CA659 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E05587001525E369009CA659 /* JSON-Prefix.pch */ = {isa = PBXFileReference; path = "JSON-Prefix.pch"; sourceTree = "<group>"; };
-		E05587011525E369009CA659 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E05587001525E369009CA659 /* JSON-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSON-Prefix.pch"; sourceTree = "<group>"; };
+		E05587011525E369009CA659 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E05587021525E369009CA659 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E05587091525E3AE009CA659 /* JSON.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JSON.txt; sourceTree = "<group>"; };
+		E055870F1525E4FB009CA659 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		E05587101525E4FB009CA659 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		E05587121525E68A009CA659 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; path = Player.h; sourceTree = "<group>"; };
+		E05587131525E68A009CA659 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,11 @@
 				E05587011525E369009CA659 /* AppDelegate.h */,
 				E05587021525E369009CA659 /* AppDelegate.m */,
 				E05586F91525E369009CA659 /* Supporting Files */,
+				E05587091525E3AE009CA659 /* JSON.txt */,
+				E055870F1525E4FB009CA659 /* TableViewController.h */,
+				E05587101525E4FB009CA659 /* TableViewController.m */,
+				E05587121525E68A009CA659 /* Player.h */,
+				E05587131525E68A009CA659 /* Player.m */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E05586FD1525E369009CA659 /* InfoPlist.strings in Resources */,
+				E055870A1525E3AE009CA659 /* JSON.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +168,8 @@
 			files = (
 				E05586FF1525E369009CA659 /* main.m in Sources */,
 				E05587031525E369009CA659 /* AppDelegate.m in Sources */,
+				E05587111525E4FB009CA659 /* TableViewController.m in Sources */,
+				E05587141525E68A009CA659 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

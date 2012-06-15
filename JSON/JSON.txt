@@ -1,0 +1,18 @@
+{
+    "resultats":{
+        "joueurs":[
+        {
+            "nom":"Jean Martin",
+            "score":10000
+        },
+        {
+            "nom":"Pierre Dupond",
+            "score":"9000"
+        },
+        {
+            "nom":"Alice Bateau",
+            "score":"8500"
+        }
+            ]
+    }
+}
